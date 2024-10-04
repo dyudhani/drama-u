@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:id="@+id/back">
+    <LinearLayout android:layout_height="match_parent" android:id="@+id/linearLayout1" android:layout_width="150dp" android:orientation="vertical" android:background="#111">
+        <LinearLayout android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="7dp" android:id="@+id/to_main">
+            <TextView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/textView1" android:background="@drawable/home" android:layout_marginLeft="7dp"></TextView>
+            <TextView android:textColor="#fff" android:layout_height="match_parent" android:gravity="center" android:textStyle="bold" android:textSize="14dp" android:id="@+id/TextView02" android:layout_marginLeft="10dp" android:text="Home" android:layout_width="70dp"></TextView>
+        </LinearLayout>
+        
+        <LinearLayout android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="7dp" android:id="@+id/to_romance">
+            <TextView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/textView1" android:layout_marginLeft="7dp" android:background="@drawable/heart"></TextView>
+            <TextView android:textColor="#fff" android:textStyle="bold" android:id="@+id/TextView01" android:layout_height="match_parent" android:gravity="center" android:layout_marginLeft="10dp" android:textSize="14dp" android:text="Romance" android:layout_width="70dp"></TextView>
+        </LinearLayout>
+        
+        
+        <LinearLayout android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="7dp" android:id="@+id/to_comedy">
+            <TextView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/textView1" android:layout_marginLeft="7dp" android:background="@drawable/drama"></TextView>
+            <TextView android:textColor="#fff" android:textStyle="bold" android:id="@+id/TextView01" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:textSize="14dp" android:text="Comedy" android:layout_width="70dp" android:gravity="center"></TextView>
+        </LinearLayout>
+        
+        <LinearLayout android:layout_marginTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="7dp" android:id="@+id/to_fantasy">
+            <TextView android:layout_width="30dp" android:layout_height="30dp" android:id="@+id/textView1" android:layout_marginLeft="7dp" android:background="@drawable/wizard"></TextView>
+            <TextView android:textColor="#fff" android:layout_height="match_parent" android:gravity="center" android:textStyle="bold" android:id="@+id/TextView03" android:layout_marginLeft="10dp" android:textSize="13dp" android:text="Fantasy" android:layout_width="70dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

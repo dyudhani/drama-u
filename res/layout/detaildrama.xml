@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView1" android:layout_width="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout4" android:layout_height="match_parent" android:orientation="vertical">
+            <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout1" android:layout_width="match_parent">
+                <TextView android:id="@+id/cancel" android:layout_marginTop="10dp" android:layout_width="30dp" android:layout_height="30dp" android:background="@drawable/cross" android:layout_alignParentRight="true" android:layout_marginRight="10dp"></TextView>
+            </RelativeLayout>
+            <LinearLayout android:layout_height="wrap_content" android:gravity="center" android:id="@+id/linearLayout2" android:layout_width="match_parent" android:layout_marginTop="15dp">
+                <TextView android:id="@+id/detailnama" android:layout_height="wrap_content" android:textSize="25dp" android:text="TextView" android:textColor="#ffffff" android:layout_width="wrap_content"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_height="wrap_content" android:gravity="center" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+                <TextView android:id="@+id/detailtahun" android:layout_height="wrap_content" android:text="TextView" android:textColor="#ffffff" android:layout_width="wrap_content"></TextView>
+                <TextView android:id="@+id/detailjenis" android:layout_height="wrap_content" android:text="TextView" android:textColor="#ffffff" android:layout_marginLeft="5dp" android:layout_width="wrap_content"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_marginTop="10dp" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/LinearLayout01" android:layout_width="match_parent">
+                <TextView android:id="@+id/TextView02" android:layout_height="wrap_content" android:textSize="20dp" android:text="Rating" android:textColor="#ffffff" android:layout_marginLeft="10dp" android:layout_width="wrap_content"></TextView>
+                <TextView android:id="@+id/rating" android:layout_height="wrap_content" android:textSize="15dp" android:text="TextView" android:layout_marginLeft="10dp" android:layout_width="wrap_content"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_marginTop="10dp" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/LinearLayout02" android:layout_width="match_parent">
+                <TextView android:id="@+id/TextView03" android:layout_height="wrap_content" android:textSize="20dp" android:text="Genre" android:textColor="#ffffff" android:layout_marginLeft="10dp" android:layout_width="wrap_content"></TextView>
+                <TextView android:id="@+id/genre" android:layout_height="wrap_content" android:textSize="15dp" android:text="TextView" android:layout_marginLeft="10dp" android:layout_width="wrap_content"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_marginTop="10dp" android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout3" android:layout_width="match_parent">
+                <TextView android:id="@+id/textView4" android:layout_height="wrap_content" android:textSize="20dp" android:text="Tentang" android:textColor="#ffffff" android:layout_marginLeft="10dp" android:layout_width="wrap_content"></TextView>
+                <TextView android:id="@+id/deskripsi" android:layout_height="wrap_content" android:textSize="15dp" android:text="TextView" android:layout_marginLeft="10dp" android:layout_width="wrap_content"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
